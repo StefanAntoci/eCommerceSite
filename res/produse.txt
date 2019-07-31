@@ -1,0 +1,64 @@
+[{
+		"Denumire": "Acer Aspire Nitro",
+		"Procesor": "Intel Core i5",
+		"Frecventa": "3.4 Ghz",
+		"Nr.nuclee": 4,
+		"Capacitate RAM": "8 GB",
+		"Placa Video": "nVidia GeForceMX150",
+		"Memorie Video": "2048 Mb",
+		"Tip ecran": "LED",
+		"Dimensiune": "15.6 inch",
+		"Format": "FullHD",
+		"Tip Unitate Stocare": "HDD",
+		"Capacitate Stocare": "1000 GB",
+		"Viteza de rotatie": "5400 rpm",
+		"Sistem de operare": "Linux",
+		"Pret":1300
+	},
+	{
+		"Denumire": "Promate",
+		"Dispozitiv": "Boxa portabila",
+		"Tip Conexiune": "Bluetooth",
+		"Impedanta": "4 ohm",
+		"Autonomie": "4 ore",
+		"Pret":800
+	},
+	{"Denumire":"Dacia Logan",
+	"Cutie de viteze":"Manuala",
+	"Capacitate motor":"1598",
+	"Combustibil":"Benzina",
+	"Pret":16000
+	},
+	{
+	"Denumire":"Bosch SMS46KI00E",
+	"Tip":"Independenta",
+	"Nr. cosuri":3,
+	"Capacitate de spalare":13,
+	"Nr. programe de spalare":6,
+	"Consum de apa":2100,
+	"Putere":"2400W",
+	"Pret":1600
+	},
+	{
+	"Denumire":"Monitor Samsung",
+	"Aspect imagine":"16:9",
+	"Luminozitate":"250 cd/mp",
+	"Ecran":"curbat",
+	"Pret":600
+	},
+	{
+	"Denumire":"Fier de calcat Philips",
+	"Tensiune":"220 V",
+	"Putere":"3000 W",
+	"Pret":330
+	},
+	{
+	"Denumire":"Aspirator Rowenta",
+	"Tip":"Aspirator fara sac",
+	"Nivel de zgomot":"68 db",
+	"Putere motor":"750 W",
+	"Capacitate absorbtie praf":"2 l",
+	"Indicator sac plin":"Nu",
+	"Pret":230
+	}
+]

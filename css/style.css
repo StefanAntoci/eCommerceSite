@@ -1,0 +1,247 @@
+#NumeSite{
+	color:white;
+	text-decoration:none;
+}
+
+#header{
+	color: #fff;
+	background: #555;
+	padding: 1em 1.25em;
+}
+
+#navigation{
+	background-color:#000;
+	height:60px;
+}
+
+#Menu{
+	margin-left:30px;
+	padding-top:20px;
+}
+
+.MenuElement{
+	margin-left:30px;
+	margin-top:10px;
+	color:#fff;
+	text-decoration: none;
+	font-style:normal;
+	font-size:20px;
+}
+
+.MenuElement:hover{
+	color:#fff;
+	background-color:#008000;
+	cursor:pointer;
+}
+
+input.MenuElement  {
+	background-color:#000;
+	color:#fff;
+	height:40px;
+	width:100px;
+	border-radius:10px;
+	font-size:20px;
+	font-style:oblique;
+}
+
+#content{
+	list-style-type:none;
+}
+
+#content li{
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:150px;
+	height:60px;
+}
+
+#Column{
+	float: left;
+	margin-top:20px;
+	width:300px;
+}
+
+.Inregistrare{
+	margin-top:20px;
+	font-size:30px; 	
+}
+
+#ButtonInregistrare{
+	float: right;
+	margin-right:20px;
+}
+
+#ItemsTable{
+	float: right;
+	margin-right:50px;
+}
+
+
+#FormaLogare{
+	border-style:solid;
+	border-radius:20px;
+	border-color:gray;
+	width:20%;
+	padding:20px;
+	margin-top:10px;
+	font-size:20px;
+	padding-bottom:55px;
+	float:left;
+	
+}
+
+#FormaLogare input{
+	font-size:20px;
+	
+}
+
+#FormaLogareButon{
+	float:right;
+	
+}
+
+#MesajBunVenit{
+	margin-left:20px;
+}
+
+.NumeProduse{
+	margin-top:120px;
+	margin-left:360px;
+	margin-right:300px;
+	margin-bottom:400px;
+	font-size:40px;
+	float:right;
+	display:inline;
+}
+
+img{
+	vertical-align:middle;
+}
+
+.BigPhotos{
+	position:relative;
+	margin-left:350px;
+	height:650px;
+	width:300px;
+	bottom:200px;
+}
+* {
+	box-sizing:border-box;
+}
+.container{
+		position:relative;
+		margin-top:22%;
+		height:900px;
+		height:auto;
+}
+.Poze{
+	display:none;
+
+}
+.cursor{
+	cursor:pointer;
+}
+.prev, .next{
+	cursor:pointer;
+	position:absolute;
+	top:40%;
+	width:auto;
+	padding:16px;
+	margin-top:-50px;
+	color:black;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:0 3px 3px 0;
+	user-select:none;
+	-webkit-user-select:none;
+}
+
+.prev{
+	left:300px;
+}
+
+.next{
+	right: 360px;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.column {
+	position:relative;
+	bottom:200px;
+	width:20%;
+	display:block;
+	margin:auto;
+	margin-left:600px;
+}
+
+.demo {
+	opacity: 0.6;
+}
+
+.active, .demo:hover{
+	opacity: 1;
+}
+
+#Specificatii{
+	font-size:60px;
+}
+
+.specificatii{
+	margin-left:300px;
+	font-size:30px;
+	background-color:#f5f5f5;
+	width:60%;
+	bottom:200px;
+	border:1px solid;
+	box-shadow:5px 10px 8px #888888;
+}
+
+.DenumiriPaginaPrincipala{
+	
+	margin-top:10px;
+	color:#000;
+	text-decoration: none;
+	font-style:normal;
+	font-size:20px;
+	width:150px;
+	border-style:none;
+	border-radius:5px;
+}
+
+.DenumiriPaginaPrincipala:hover{
+	color:#fff;
+	background-color:#008000;
+}
+
+.Cos{
+	position:fixed;
+	top:500px;
+	right:0px;
+	height:100px;
+	margin-left:30px;
+	margin-top:10px;
+	color:#fff;
+	text-decoration: none;
+	font-style:normal;
+	font-size:20px;
+}
+
+.Cos:hover{
+		color:#fff;
+	background-color:#008000;
+	cursor:pointer;
+}
+
+input.Cos{
+	background-color:#000;
+	color:#fff;
+	height:60px;
+	width:150px;
+	border-radius:10px 0px 0px 10px;
+	font-size:25x;
+	font-style:oblique;
+}

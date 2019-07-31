@@ -1,0 +1,1 @@
+[{"Nume":"stefan","Password":"123","Portofel":196},{"Nume":"tudor","Password":"123","Portofel":1201},{"Nume":"viorel","Password":"234","Portofel":0},{"Nume":"Cristina","Password":"2345","Portofel":99670}]
