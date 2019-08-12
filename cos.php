@@ -40,6 +40,7 @@ include 'menuBar.php';
 		{
 			echo "<div style='width:15%; float:left; display:block'><h2 id='MesajBunVenit'>Bun Venit, ".$_SESSION['user']."</h2>";
 			echo "<form  action='logout.php'>
+            <input type = 'hidden' name='csrf' value='".$_SESSION['token']."'/>
 			<input class='MenuElement' type = 'submit' value='Delogare'/>
 			</form><br/>
 			</div>";

@@ -13,14 +13,18 @@ $flag = 0;
  oci_execute($login_stmt);
  oci_execute($cust_cursor);
  //echo "queries are executed\n";
- 
- 
+ $unhashed_user = htmlspecialchars($_POST['user']);
+ $user = htmlspecialchars(substr(hash('md5', $_POST['user']), 0, 12 ));
+ echo $user."<br>";
+ $pass = htmlspecialchars(substr(hash('md5', $_POST['password']), 0, 12 ));
+ echo $pass."<br>";
  while( ($row = oci_fetch_array($cust_cursor, OCI_ASSOC)) != false)
  {
-	if ( ($_POST['user'] == $row['USERNAME']) && ($_POST['password'] == $row['PASSWORD']) )
+	if ( ($user == $row['USERNAME']) && ($pass == $row['PASSWORD']) )
 	{
-		$_SESSION['user'] = $_POST['user'];
+		$_SESSION['user'] = $unhashed_user;
 		$_SESSION['cust_id'] = $row['CUSTOMERID'];
+        $_SESSION['token'] = session_id();
 		$flag = 1;
 	}
  }

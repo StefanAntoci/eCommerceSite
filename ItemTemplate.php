@@ -27,6 +27,7 @@ else
 {
 	echo "<div style='width:20%; float:left'><h2 id='MesajBunVenit'>Bun Venit, ".$_SESSION['user']."</h2>";
 	echo "<form  action='logout.php'>
+    <input type = 'hidden' name='csrf' value='".$_SESSION['token']."'/>
 	<input class='MenuElement' type = 'submit' value='Delogare'/>
 	</form>
 	<form action='modifica.php' method='get'>
@@ -93,6 +94,5 @@ else
 	}
 	echo "<center> Pret: ".$item_price."</center><br/><br/>";
 }
-//print_r($specs);
 echo "</body>";
 ?>

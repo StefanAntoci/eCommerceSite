@@ -12,7 +12,7 @@
 		</header> 	
 		<div id = "navigation">
 			<nav id="Menu">
-				<a class="MenuElement" href = "MainPage.php">PaginaPrincipala </a>
+				<a class="MenuElement" onclick="loadDoc('MainPage.php');">PaginaPrincipala </a>
 				<?php
 				$dept_cursor = oci_new_cursor($conn);
 				$get_dept = 'BEGIN select_dept(:dept_cursor); END;';
@@ -27,7 +27,8 @@
 				
 				for ($x = 0; $x < $nrows; $x++)
 				{
-					echo "<a class='MenuElement' href = 'DepTemplate.php?dept=".$depts['DEPARTMENT'][$x]."'>".$depts['DEPARTMENT'][$x]." </a>";
+                    $param = "\"DepTemplate.php?dept=".$depts['DEPARTMENT'][$x]."\"";
+					echo "<a class='MenuElement' onclick='loadDoc(".$param.");'>".$depts['DEPARTMENT'][$x]." </a>";
 				}
 				?>
 
@@ -41,9 +42,9 @@
 					?>
 					<a class="MenuElement" href = "Inregistrare.php">Inregistrare </a>
 				</div>
+                
+
 			</nav>
 		</div>
-		
-
 	</body>
 </html>	
